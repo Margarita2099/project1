@@ -1,0 +1,14 @@
+[{"tag": "start", "patterns": ["Hello","Hi","Good evening","Good morning","Good afternoon","How are you doing?","hey","hey there"],
+  "response": "Welcome to the Hotel. \n Hi, I am your virtual assistant Clever Chat_bot:).\n Hope I can answer your questions about spending time in our hotel and help you to book the best room.\n Please keep your questions brief so they are easier for me to understand.\n How I can help you?"},
+  {"tag": "stop", "patterns": ["Bye", "Bye Bye","Take care", "Good bye", "Nice to speak to you","Nice to talk to you"],
+    "response": "Good bye.Call me if you have any questions."},
+  {"tag": "thanks", "patterns": ["thanks", "Thank you","Nice to speak to you", "Nice to talk to you","appreciate your help"],
+    "response": "It's my pleasure to help"},
+  {"tag": "number", "patterns": ["I would like to book the room", "Booking", "booking", "check in", "room"],
+    "response": "we have different class of rooms? What class are you prefer? Please choose one: Standart, Superior room, Apartment, Studio, Suite, Duplex"},
+  {"tag": "answer on class of number", "patterns": ["Standart", "Superior room", "Apartment", "Studio", "Suite, Duplex"],
+   "response": "Ok, what view you would like?"},
+  {"tag": "view", "patterns": ["ROH", "Garden view", "inside view", "land view", "mountain view", "pool view"],
+  "response": "Yes, great choice!"}]
+
+  
